@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lato,Lemonada');
+
+body{
+	margin:0;
+	padding: 0;
+	 font-family: 'Lato', sans-serif;
+}
+#resume{   
+	background: #EDEDED;
+    width: 900px;
+    margin: 0 auto;}
+.head{
+	overflow: hidden;
+	border-bottom: 2px solid orange;
+    background: #c5c5c5;
+}
+.image{
+    width: 20%;
+    float: left;	
+}
+.image img{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;	
+    padding: 13px 50px;
+}
+.name{
+	width: 40%;
+    float: left;
+}
+.name h1{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+.name h3{
+	margin-top: 0px;	
+}
+.contact{
+	width: 40%;
+    float: left;
+}
+.contact ul{
+	padding-left: 40px;
+}
+.contact ul li{
+	list-style: none;
+}
+.information{
+	overflow: hidden;
+	padding: 20px 15px 20px;
+	border-bottom: 1px solid #c7c1c1;
+}
+.heading{
+	width: 15%;
+    float: left;
+}
+.heading h2{
+    color: #FFA500;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+font-family: 'Lemonada', cursive;
+}
+.details{
+	width: 80%;
+    float: right;
+
+}
+.details p{
+    text-align: justify;
+	margin: 0px;
+    padding-bottom: 12px;	
+}
+.details h3{
+	margin: 0px;
+
+}
+.details h5{
+	margin: 0px;
+}
+.details li{}
+.details_list{
+    width: 80%;
+    float: right;
+    list-style: none;	
+}
+.details_list h3{
+	   margin: 0px;
+}
+.details_list h5{
+	   margin: 0px;
+}
+.details_list p{}
+.details ul{
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+.details ul li{}
+.col{
+	width: 80%;
+    float: right;
+    list-style: none;
+    column-count: 3;
+}
+.col li{}
+footer{
+    background-color: #2b2525;
+    overflow: hidden;
+    padding: 15px 20px 5px;
+}
+footer .name{
+	width: 70%;
+}
+footer h1{
+    color: #fff;
+}
+footer h3{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+	padding-bottom: 27px;
+}
+footer .contact{
+	width: 30%;
+}
+footer .contact ul{
+	
+}
+footer .contact ul li{
+    color: #fff;
+}
+.hr{
+	width: 100%;
+    height:3px;
+    background: orange;
+    float: left;
+}
